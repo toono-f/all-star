@@ -1,0 +1,24 @@
+@import "@/styles/foundation/function";
+@import "@/styles/foundation/mixin";
+@import "@/styles/foundation/variable";
+
+/* ここにベースとなるCSSを記述します */
+body {
+  font-family: Noto Sans JP, -apple-system, blinkmacsystemfont, Segoe UI,
+    Hiragino Kaku Gothic ProN, BIZ UDPGothic, meiryo, sans-serif;
+  color: $default;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 1.75;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  appearance: none;
+}

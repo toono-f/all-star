@@ -1,0 +1,21 @@
+$breakpoints: (
+  md: 768px,
+);
+
+@mixin mq($size: md) {
+  @media screen and (min-width: #{map-get($breakpoints, $size)}) {
+    @content;
+  }
+}
+
+@mixin hover {
+  &:active {
+    @content;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}

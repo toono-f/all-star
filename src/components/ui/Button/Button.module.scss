@@ -1,0 +1,25 @@
+@import "@/styles/foundation/function";
+@import "@/styles/foundation/mixin";
+@import "@/styles/foundation/variable";
+
+.button {
+  display: inline-grid;
+  grid-auto-flow: column;
+  column-gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  font-weight: 500;
+  color: $white;
+  text-decoration: none;
+  background-color: #3ea8ff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -5px #0f83fd;
+}
+
+.icon {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  transform: rotate(180deg);
+}
