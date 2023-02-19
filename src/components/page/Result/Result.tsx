@@ -12,8 +12,8 @@ type ResultProps = {
   answerNumber: number;
 };
 
-const sheetId = "18DwsqC4ciKXvFOLARBBxh_VoCLDWSXV9grOq1GUuGek";
-const apiKey = "AIzaSyDV8GHEM2fB6Snn4-Y8rnsIvIW2X0lehwE";
+export const sheetId = "18DwsqC4ciKXvFOLARBBxh_VoCLDWSXV9grOq1GUuGek";
+export const apiKey = "AIzaSyDV8GHEM2fB6Snn4-Y8rnsIvIW2X0lehwE";
 
 export const Result = ({ sheetNumber, answerNumber }: ResultProps) => {
   const [data, setData] = useState<SheetApiType>();

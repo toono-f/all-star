@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
+import { apiKey, sheetId } from "./Result";
 import styles from "./Result.module.scss";
 
 type SheetApiType = {
@@ -8,9 +9,6 @@ type SheetApiType = {
   majorDimension: string;
   values: Array<Array<string | number>>;
 };
-
-const sheetId = "18DwsqC4ciKXvFOLARBBxh_VoCLDWSXV9grOq1GUuGek";
-const apiKey = "AIzaSyDV8GHEM2fB6Snn4-Y8rnsIvIW2X0lehwE";
 
 export const ResultAll = () => {
   const [data, setData] = useState<SheetApiType>();
