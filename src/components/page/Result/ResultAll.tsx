@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-import styles from "../Result/Result.module.scss";
+import styles from "./Result.module.scss";
 
 type SheetApiType = {
   range: string;
