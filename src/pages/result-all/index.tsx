@@ -1,4 +1,4 @@
-import { ResultAll } from "@/components/page/ResultAll";
+import { ResultAll } from "@/components/page/Result";
 import { BasicLayout } from "@/layouts/BasicLayout";
 
 const Page = () => <ResultAll />;
